@@ -27,11 +27,9 @@ angular.module('sample.auth', [])
   $scope.doLogin = function() {
     $auth.submitLogin($scope.loginData)
       .then(function(resp) { 
-        console.log(resp)
         $state.go('tab.points');
       })
       .catch(function(resp) { 
-        console.log(resp);
         var alertPopup = $ionicPopup.alert({
             title: 'Error al entrar!',
             template: 'Verifica que el email y la contraseña son correctos!'
@@ -55,29 +53,6 @@ angular.module('sample.auth', [])
   $scope.updateUser = function() {
     console.log("update User");
     console.log($scope.userData);
-
-    /*var req = {
-     method: 'POST',
-     url: 'http://localhost:3000/api/v1/users.json',
-     headers: {
-       'Content-Type': undefined
-     },
-     data: $scope.userData
-    }
-
-    //$http(req).success(function(data) {
-    //    console.log(data);
-    //});
-    */
-
-    /*$http.put("http://localhost:3000/api/v1/users/1/edit.json", $scope.userData).success(function(result) {
-        console.log(result);
-        //$scope.resultPut = result;
-    }).error(function() {
-        console.log("error");
-    });*/
-
-
 
     $auth.updateAccount($scope.userData)
       .then(function(resp) { 

@@ -1,30 +1,30 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A3C91D3ED1AE57DDA120FF971F075532B52F7AB6",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "48BB208A871B4250D650DFB99CF244C962C84C25",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "A3C91D3ED1AE57DDA120FF971F075532B52F7AB6" : 0,
-    "9726478C4BA8E82FAEF2EEE8447386E330E2794A" : 0
+    "9726478C4BA8E82FAEF2EEE8447386E330E2794A" : 0,
+    "48BB208A871B4250D650DFB99CF244C962C84C25" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E61C28BD-5B1B-4C24-803F-94E41B474449",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "A3C91D3ED1AE57DDA120FF971F075532B52F7AB6" : "ionic_rails_sample\/",
-    "9726478C4BA8E82FAEF2EEE8447386E330E2794A" : ""
+    "9726478C4BA8E82FAEF2EEE8447386E330E2794A" : "",
+    "48BB208A871B4250D650DFB99CF244C962C84C25" : "ionic_rails_sample\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "IonicRailsSample",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "platforms\/ios\/IonicRailsSample.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jwako\/ionic_rails_sample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "48BB208A871B4250D650DFB99CF244C962C84C25"
+    },
+    {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xavier666\/puntos_pelotas.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9726478C4BA8E82FAEF2EEE8447386E330E2794A"
-    },
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jwako\/ionic_rails_sample.git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A3C91D3ED1AE57DDA120FF971F075532B52F7AB6"
     }
   ]
 }
