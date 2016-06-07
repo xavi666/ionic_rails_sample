@@ -51,16 +51,9 @@ angular.module('sample.auth', [])
   };
 
   $scope.updateUser = function() {
-    console.log("update User");
-    console.log($scope.userData);
-
     $auth.updateAccount($scope.userData)
       .then(function(resp) { 
-        console.log(resp.data.data);
         $scope.userData = resp.data.data;
-        //$window.location.reload(true)
-        //$state.go('tab.account');
-        //$state.go('/register');
       })
       .catch(function(resp) { 
         var alertPopup = $ionicPopup.alert({
