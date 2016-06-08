@@ -60,7 +60,7 @@ angular.module('sample', ['ionic',
     views: {
       'tab-account': {
         templateUrl: 'templates/tab-account.html',
-        controller: 'HomeCtrl'
+        controller: 'AuthCtrl'
       }
     }
   })
